@@ -14,6 +14,7 @@ public class FilteringApples {
         new Apple(120, "red")
     );
 
+    
     // [Apple{color='green', weight=80}, Apple{color='green', weight=155}]
     List<Apple> greenApples = filterApples(inventory, FilteringApples::isGreenApple);
     System.out.println(greenApples);
